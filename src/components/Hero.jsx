@@ -116,7 +116,7 @@ export default function Hero() {
             </p>
             <h1 style={s.title}>{listing.address}</h1>
             <p style={s.subtitle}>
-              {listing.beds} bedrooms &nbsp;&middot;&nbsp; {listing.baths} bathrooms &nbsp;&middot;&nbsp; ~{listing.sqft.toLocaleString()} sq. ft.
+              {listing.beds} bedrooms &nbsp;&middot;&nbsp; {listing.baths} bathrooms &nbsp;&middot;&nbsp; {listing.sqft.toLocaleString()} sq. ft.
             </p>
           </div>
           <div style={s.price} className="hero-price">

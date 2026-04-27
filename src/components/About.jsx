@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section style={{ padding: 'clamp(3.5rem,7vw,6rem) var(--pad)' }}>
       <div style={{ maxWidth: 'var(--max)', margin: '0 auto' }}>
-        <SectionHeader eyebrow="About This Home" title={<>Spacious Living in<br /><em>East Toronto</em></>} />
+        <SectionHeader eyebrow="About" />
 
         <div style={{
           display: 'grid',

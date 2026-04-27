@@ -13,7 +13,7 @@ export default function Location() {
       <div style={{ maxWidth: 'var(--max)', margin: '0 auto' }}>
         <SectionHeader
           eyebrow="Location"
-          title={<>{listing.address},<br /><em>{listing.city}</em></>}
+          title={<>{listing.address}, {listing.city}</>}
           light
         />
 
@@ -25,33 +25,7 @@ export default function Location() {
         }}
         className="location-grid"
         >
-          {/* Nearby tags */}
-          <div>
-            <p style={{
-              fontSize: '0.88rem',
-              color: 'var(--dark-muted)',
-              lineHeight: 1.8,
-              marginBottom: '1.75rem',
-            }}>
-              A quiet, residential street in a well-established neighbourhood — close to what matters without the noise.
-            </p>
-            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-              {listing.nearby.map((item, i) => (
-                <li key={i} style={{
-                  fontSize: '0.8rem',
-                  fontWeight: 400,
-                  letterSpacing: '0.06em',
-                  color: 'rgba(255,255,255,0.55)',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.65rem',
-                }}>
-                  <span style={{ width: 14, height: 1, background: 'var(--accent)', flexShrink: 0 }} />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
+          
 
           {/* Map embed / link */}
           <a
@@ -96,7 +70,7 @@ export default function Location() {
       </div>
 
       <style>{`
-        @media (max-width: 700px) {
+        @media {
           .location-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>

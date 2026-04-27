@@ -6,34 +6,11 @@ export default function Features() {
   return (
     <section style={{
       background: 'var(--surface)',
-      padding: 'clamp(3.5rem,7vw,6rem) var(--pad)',
+      
     }}>
-      <div style={{ maxWidth: 'var(--max)', margin: '0 auto' }}>
-        <SectionHeader eyebrow="What's Included" title="Features & Amenities" />
+      
 
-        <div style={{
-          display: 'grid',
-          gridTemplateColumns: 'repeat(3, 1fr)',
-          gap: '1px',
-          background: 'var(--border)',
-          border: '1px solid var(--border)',
-        }}
-        className="features-grid"
-        >
-          {listing.features.map((f, i) => (
-            <FeatureCard key={i} title={f.title} body={f.body} />
-          ))}
-        </div>
-      </div>
-
-      <style>{`
-        @media (max-width: 760px) {
-          .features-grid { grid-template-columns: 1fr 1fr !important; }
-        }
-        @media (max-width: 480px) {
-          .features-grid { grid-template-columns: 1fr !important; }
-        }
-      `}</style>
+      
     </section>
   )
 }

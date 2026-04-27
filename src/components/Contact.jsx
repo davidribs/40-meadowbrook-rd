@@ -22,7 +22,7 @@ export default function Contact() {
           marginBottom: '2.5rem',
           marginTop: '-0.75rem',
         }}>
-          Reach out to schedule a showing or ask any questions. This unit is available now.
+          Reach out to schedule a showing. This unit is available now.
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>

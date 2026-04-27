@@ -26,7 +26,7 @@ export default function Panorama() {
             fontSize: 'clamp(1.6rem, 3vw, 2.2rem)', fontWeight: 400,
             color: '#fff', lineHeight: 1.2,
           }}>
-            360° Panorama Tour
+            360° Virtual Tour 
           </h2>
         </div>
         <button
@@ -66,8 +66,8 @@ export default function Panorama() {
           }}
         >
           <img
-            src="panorama/tiles/0-pxl_20260426_205839687photosphere/preview.jpg"
-            alt="360 panorama preview"
+            src="photos/living-room-1.jpg"
+            alt="360 panorama tour"
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'brightness(0.7)' }}
           />
           {/* 360 play button overlay */}

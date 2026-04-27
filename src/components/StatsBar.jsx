@@ -5,7 +5,7 @@ export default function StatsBar() {
   const stats = [
     { num: listing.beds,        label: 'Bedrooms' },
     { num: listing.baths,       label: 'Bathrooms' },
-    { num: `~${listing.sqft.toLocaleString()}`, label: 'Sq. Ft.' },
+    { num: `${listing.sqft.toLocaleString()}`, label: 'Sq. Ft.' },
     { num: `$${listing.price.toLocaleString()}`, label: 'Per Month' },
   ]
 

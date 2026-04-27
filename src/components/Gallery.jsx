@@ -33,7 +33,7 @@ export default function Gallery() {
                 key={i}
                 photo={photo}
                 // Make first cell of the grid span 2 rows for visual interest
-                tall={i === 0}
+                // tall={i === 0}
                 onClick={() => openLb(i + 1)} // +1 because hero is index 0
               />
             ))}
