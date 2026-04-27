@@ -1,0 +1,37 @@
+/* ── Reset & Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:          #F9F8F5;
+  --surface:     #FFFFFF;
+  --text:        #111111;
+  --text-muted:  #6A6460;
+  --accent:      #7B6B58;
+  --accent-lt:   #F0EDE8;
+  --border:      #E2DED9;
+  --dark:        #111111;
+  --dark-muted:  rgba(255,255,255,0.48);
+  --dark-border: rgba(255,255,255,0.12);
+
+  --font-display: 'DM Serif Display', Georgia, serif;
+  --font-body:    'Outfit', system-ui, sans-serif;
+
+  --max: 1160px;
+  --pad: clamp(1.25rem, 5vw, 3.5rem);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { display: block; max-width: 100%; }
+a { color: inherit; }
+button { font-family: var(--font-body); cursor: pointer; }
