@@ -48,7 +48,7 @@ export default function Panorama() {
       {open && (
         <div style={{ width: '100%', height: 'clamp(380px, 60vh, 640px)', position: 'relative' }}>
           <iframe
-            src="/panorama/index.html"
+            src="/40-meadowbrook-rd/panorama/index.html"
             title="360 Panorama Tour"
             style={{ width: '100%', height: '100%', border: 'none', display: 'block' }}
             allowFullScreen
@@ -66,7 +66,7 @@ export default function Panorama() {
           }}
         >
           <img
-            src="/panorama/tiles/0-pxl_20260426_205839687photosphere/preview.jpg"
+            src="/40-meadowbrook-rd/panorama/tiles/0-pxl_20260426_205839687photosphere/preview.jpg"
             alt="360 panorama preview"
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'brightness(0.7)' }}
           />
