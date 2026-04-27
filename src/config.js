@@ -10,9 +10,9 @@ export const listing = {
   type:      "Apartment - Multiplex",
   contact: { email: "your@email.com", phone: "+1 (647) 381-3055" },
   description: [
-    "40 Meadowbrook is a three-bedroom unit in a small multiplex on a quiet street in North York. The unit has been newly renovated with new laminate floors, updated appliances, and new fixtures.",
-    "Two full bathrooms, a separate living room, and a private balcony. Water is included in the rent. Coin-operated laundry is available in the building, and there is a dedicated parking spot in the back.",
-    "A short walk away is the Lawrence West TTC station. With nearby schools, parks, and shopping at Lawrence Allen Centre.",
+    "The suite at 40 Meadowbrook is a three-bedroom unit in a sixplex on a quiet street in North York. The unit has been freshly painted with new laminate floors.",
+    "Two full bathrooms, a separate living room, a private balcony, and there is a dedicated parking spot in the back. A short walk away is the Lawrence West TTC station. Close to schools, parks, and shopping at Lawrence Allen Centre.", 
+	"Hydro is extra, and not included in the rent. Coin-operated laundry is available in the building. Smoking and pets are not allowed within the building. Content insurance is required.",
   ],
   details: [
     { label: "Rent",      value: "$2,800 / month" },
@@ -20,8 +20,12 @@ export const listing = {
     { label: "Bathrooms", value: "2" },
     { label: "Size",      value: "1200 sq. ft." },
     { label: "Type",      value: "Apartment / Multiplex" },
-    { label: "Laundry",   value: "Coin-operated In Building" },
+	{ label: "Hydro",	  value: "Extra"},
+	{ label: "Content Insurance",	  value: "Required"},
+    { label: "Laundry",   value: "Coin-Operated In Building" },
     { label: "Parking",   value: "Included" },
+	{ label: "Smoking", value: "Not Allowed"},
+	{ label: "Pets", value: "Not Allowed"}
   ],
 features: [
     { title: "3 Bedrooms",           body: "Spacious master bedroom plus two additional bedrooms, each with good natural light and closet space." },
