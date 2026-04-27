@@ -1,96 +1,66 @@
-// ─────────────────────────────────────────────────────────────────────────────
-// LISTING CONFIGURATION
-// Edit this file to update all listing details and photos.
-// ─────────────────────────────────────────────────────────────────────────────
-
 export const listing = {
-  // ── Core details ──────────────────────────────────────────────────────────
   address:   "40 Meadowbrook Rd",
-  city:      "Toronto, ON",
+  city:      "Toronto",
+  province:  "ON",
   price:     2800,
   beds:      3,
   baths:     2,
   sqft:      1000,
   available: "Available Now",
   type:      "Apartment — Multiplex",
-
-  // ── Contact ───────────────────────────────────────────────────────────────
-  // Replace with your real email and phone number.
-  contact: {
-    email: "your@email.com",
-    phone: "+1 (416) 000-0000",
-  },
-
-  // ── Description paragraphs ────────────────────────────────────────────────
+  contact: { email: "your@email.com", phone: "+1 (416) 000-0000" },
   description: [
-    "Welcome to 40 Meadowbrook Road — a generously proportioned three-bedroom apartment offering updated interiors within a quiet, residential multiplex. Fresh laminate flooring runs throughout the living areas, and large windows fill every room with natural light.",
-    "The kitchen features full-height white cabinetry, granite-look countertops, and a double stainless steel sink beneath a bright window. Two well-appointed bathrooms serve the home — one with a soaking tub and hand shower, the other with a separate shower stall.",
-    "Baseboard heating provides per-room comfort control. A balcony door off the living room opens to your own private outdoor space. The building sits on a mature, tree-lined street with convenient access to TTC routes, schools, parks, and everyday shopping.",
+    "Welcome to 40 Meadowbrook Road — a generously sized three-bedroom apartment with updated interiors in a quiet residential multiplex. Fresh laminate flooring runs throughout, and oversized windows flood every room with natural light.",
+    "The kitchen has full-height white cabinetry, granite-look countertops, and a double stainless steel sink. Two full bathrooms serve the unit — one with a soaking tub and hand shower, the other with a separate shower stall. A balcony door off the living room gives you your own outdoor space.",
+    "Electric baseboard heating throughout. Mature, tree-lined street with easy access to TTC bus routes, schools, parks, and everyday shopping.",
   ],
-
-  // ── Quick-facts sidebar ───────────────────────────────────────────────────
   details: [
     { label: "Rent",      value: "$2,800 / month" },
     { label: "Bedrooms",  value: "3" },
     { label: "Bathrooms", value: "2" },
     { label: "Size",      value: "~1,000 sq. ft." },
-    { label: "Type",      value: "Apartment — Multiplex" },
+    { label: "Type",      value: "Apartment / Multiplex" },
     { label: "Heating",   value: "Electric baseboard" },
-    { label: "Parking",   value: "Inquire" },
-    { label: "Pets",      value: "Inquire" },
     { label: "Laundry",   value: "Inquire" },
+    { label: "Parking",   value: "Included" },
+    { label: "Pets",      value: "Inquire" },
+    { label: "Available", value: "Now" },
   ],
-
-  // ── Feature cards ─────────────────────────────────────────────────────────
   features: [
-    {
-      title: "Two Full Bathrooms",
-      body:  "Soaking tub with hand shower in one, separate shower stall in the other. No sharing required.",
-    },
-    {
-      title: "Updated Kitchen",
-      body:  "White cabinetry, granite-look countertops, double stainless sink, and included appliances.",
-    },
-    {
-      title: "Private Balcony",
-      body:  "A balcony door off the living room provides your own outdoor space for morning coffee or evening air.",
-    },
-    {
-      title: "New Laminate Flooring",
-      body:  "Wide-plank grey laminate throughout the living areas and bedrooms — clean, modern, and easy to maintain.",
-    },
-    {
-      title: "Abundant Natural Light",
-      body:  "Oversized windows in every room keep the apartment bright throughout the day.",
-    },
-    {
-      title: "TTC Accessible",
-      body:  "Multiple bus routes within walking distance with straightforward connections to the subway network.",
-    },
+    "3 spacious bedrooms",
+    "2 full bathrooms",
+    "Master bedroom with ensuite",
+    "Updated kitchen with appliances",
+    "Private balcony access",
+    "New laminate flooring",
+    "Large windows throughout",
+    "Electric baseboard heating",
+    "Parking space included",
+    "TTC bus routes nearby",
+    "Schools & parks within walking distance",
+    "Quiet residential street",
   ],
-
-  // ── Nearby tags ───────────────────────────────────────────────────────────
-  nearby: [
-    "TTC Bus Routes",
-    "Schools",
-    "Parks & Green Space",
-    "Grocery & Shopping",
-    "Cafes & Restaurants",
-  ],
-
-  // ── Photos ────────────────────────────────────────────────────────────────
-  // 1. Drop your image files into the  public/photos/  folder.
-  // 2. Add an entry here for each one: { src: "/photos/filename.jpg", caption: "Room Name" }
-  // The FIRST photo is used as the hero image.
   photos: [
-    { src: "/photos/living-room.jpg",  caption: "Living Room" },
-    { src: "/photos/bedroom-1.jpg",    caption: "Bedroom 1" },
-    { src: "/photos/bedroom-2.jpg",    caption: "Bedroom 2" },
-    { src: "/photos/kitchen.jpg",      caption: "Kitchen" },
-    { src: "/photos/bathroom-1.jpg",   caption: "Bathroom" },
-    { src: "/photos/bathroom-2.jpg",   caption: "Second Bathroom" },
-    // { src: "/photos/hallway.jpg",   caption: "Hallway" },
-    // { src: "/photos/exterior.jpg",  caption: "Building Exterior" },
-    // ...add as many as you like
+    { src: "/photos/living-room-1.jpg",      caption: "Living Room" },
+    { src: "/photos/living-room-2.jpg",      caption: "Living Room" },
+    { src: "/photos/kitchen-1.jpg",          caption: "Kitchen" },
+    { src: "/photos/kitchen-3.jpg",          caption: "Kitchen" },
+    { src: "/photos/master-bedroom-1.jpg",   caption: "Master Bedroom" },
+    { src: "/photos/master-bedroom-2.jpg",   caption: "Master Bedroom" },
+    { src: "/photos/master-bathroom-1.jpg",  caption: "Master Bathroom" },
+    { src: "/photos/master-bathroom-2.jpg",  caption: "Master Bathroom" },
+    { src: "/photos/second-bedroom-1.jpg",   caption: "Second Bedroom" },
+    { src: "/photos/second-bedroom-2.jpg",   caption: "Second Bedroom" },
+    { src: "/photos/third-bedroom-1.jpg",    caption: "Third Bedroom" },
+    { src: "/photos/third-bedroom-2.jpg",    caption: "Third Bedroom" },
+    { src: "/photos/bathroom-1.jpg",         caption: "Bathroom" },
+    { src: "/photos/bathroom-2.jpg",         caption: "Bathroom" },
+    { src: "/photos/bathroom-3.jpg",         caption: "Bathroom" },
+    { src: "/photos/hallway-1.jpg",          caption: "Hallway" },
+    { src: "/photos/hallway-2.jpg",          caption: "Hallway" },
+    { src: "/photos/hallway-3.jpg",          caption: "Hallway" },
+    { src: "/photos/entranceway-1.jpg",      caption: "Entranceway" },
+    { src: "/photos/exterior-1.jpg",         caption: "Exterior" },
+    { src: "/photos/parking-space-1.jpg",    caption: "Parking Space" },
   ],
 }
