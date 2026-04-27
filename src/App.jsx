@@ -17,7 +17,6 @@ export default function App() {
       <About />
       <Gallery />
       <Features />
-      <Panorama />
       <Location />
       <Contact />
       <Footer />

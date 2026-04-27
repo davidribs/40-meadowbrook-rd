@@ -26,17 +26,11 @@ export default function Contact() {
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a
-            href={`mailto:${listing.contact.email}?subject=Inquiry: ${listing.address}&body=Hello, I am interested in viewing the ${listing.beds}-bedroom apartment at ${listing.address}. Please let me know your availability.`}
-            style={btnStyle('filled')}
-          >
-            Email to Inquire
-          </a>
-          {listing.contact.phone && (
+          
             <a href={`tel:${listing.contact.phone.replace(/\D/g,'')}`} style={btnStyle('outline')}>
               {listing.contact.phone}
             </a>
-          )}
+         
         </div>
       </div>
     </section>
